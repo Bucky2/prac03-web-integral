@@ -1,0 +1,43 @@
+.home {
+    text-align: center;
+    
+    h1 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+    
+    .hotel-info {
+      margin-bottom: 40px;
+      
+      .logo {
+        width: 200px;
+        height: 200px;
+        margin-bottom: 20px;
+      }
+      
+      p {
+        margin-bottom: 10px;
+      }
+    }
+    
+    .image-gallery {
+      h2 {
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+      
+      .image-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        .image {
+          width: 200px;
+          height: 200px;
+          margin: 10px;
+          object-fit: cover;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
